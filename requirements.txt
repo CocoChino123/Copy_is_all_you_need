@@ -13,7 +13,8 @@ requests == 2.25.1
 retro_pytorch == 0.3.8
 scipy == 1.7.3
 spacy == 3.2.3
-torch == 1.8.1+cu101
+# use 'conda create -n ENV_NAME python=3.8 pytorch=1.10 cudatoolkit=10.2 torchvision -c pytorch -y' instead
+# torch == 1.8.1+cu101
 tqdm == 4.62.3
 transformers == 4.24.0
 xlrd == 2.0.1
